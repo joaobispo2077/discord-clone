@@ -24,8 +24,8 @@
 		"type:check": "tsc --project tsconfig.json --pretty --noEmit",
 		"lint:fix": "eslint . --fix",
 		"lint:check": "eslint .",
-		"style:check": "prettier --check src/**/*.(ts|js)",
-		"style:fix": "prettier --write src/**/*.(ts|js)",
+		"style:check": "prettier --check src/**/*.(ts{,x}|js{,x})",
+		"style:fix": "prettier --write src/**/*.(ts{,x}|js{,x})",
 		"commit:lint": "lint-staged"
 	},
 	"eslintConfig": {
