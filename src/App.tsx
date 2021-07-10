@@ -1,10 +1,12 @@
 import React from 'react';
+import GlobalStyles from './styles/GlobalStyles';
 
 function App(): JSX.Element {
 	return (
-		<div className="App">
+		<>
+			<GlobalStyles />
 			<h1>Echo Mundo</h1>
-		</div>
+		</>
 	);
 }
 
