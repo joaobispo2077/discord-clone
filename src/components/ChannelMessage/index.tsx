@@ -8,7 +8,6 @@ export interface ChannelMessageProps {
 	content: string | React.ReactElement | React.ReactNode;
 	hasMention?: boolean;
 	isBot?: boolean;
-	ref?: any;
 }
 
 const ChannelMessage: React.FC<ChannelMessageProps> = ({

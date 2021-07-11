@@ -24,7 +24,7 @@ export const Container = styled.div`
 			opacity: 0.75;
 		}
 
-		div:nth-child(2) svg {
+		> div:nth-child(2) svg {
 			display: inline;
 		}
 	}
