@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { ExpandMore } from 'styled-icons/material'; // change this lib
 
 export const Container = styled.section`
-	grid-area: 'SN';
+	grid-area: SN;
 
 	background: var(--secondary);
 	display: flex;
