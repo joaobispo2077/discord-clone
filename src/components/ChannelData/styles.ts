@@ -17,7 +17,7 @@ export const Messages = styled.div`
 	display: flex;
 	flex-direction: column;
 
-	max-height: calc(100vh -46px -67px);
+	max-height: calc(100vh - 46px - 67px);
 	overflow-y: scroll;
 
 	::-webkit-scrollbar {
@@ -67,8 +67,6 @@ export const Input = styled.div`
 		background-color: transparent;
 
 		color: var(--white);
-
-		position: relative;
 
 		&::placeholder {
 			color: var(--gray);
