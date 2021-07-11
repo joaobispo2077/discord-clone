@@ -23,8 +23,11 @@ export const Container = styled.div`
 			color: var(--white);
 			opacity: 0.75;
 		}
-	}
 
+		div:nth-child(2) svg {
+			display: inline;
+		}
+	}
 	> div {
 		display: flex;
 		align-items: center;
@@ -45,6 +48,7 @@ export const HashtagIcon = styled(Hashtag)`
 `;
 
 export const InviteIcon = styled(PersonAdd)`
+	display: none;
 	width: 16px;
 	height: 16px;
 
@@ -59,6 +63,7 @@ export const InviteIcon = styled(PersonAdd)`
 	}
 `;
 export const SettingsIcon = styled(Settings)`
+	display: none;
 	width: 16px;
 	height: 16px;
 
