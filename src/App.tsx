@@ -8,7 +8,6 @@ function App(): JSX.Element {
 		<>
 			<GlobalStyles />
 			<Layout />
-			<h1>Echo Mundo</h1>
 		</>
 	);
 }

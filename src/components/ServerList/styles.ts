@@ -10,12 +10,15 @@ export const Container = styled.div`
 	background-color: var(--tertiary);
 	padding: 11px 0;
 
+	min-height: 100vh;
 	max-height: 100vh;
 	overflow-y: scroll;
 
 	::-webkit-scrollbar {
 		display: none;
 	}
+
+	scrollbar-width: none; // hidden scrollbar in firefox
 `;
 
 export const Separator = styled.div`
