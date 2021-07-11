@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Button } from './styles';
 
-import logoSvg from '../../assets/svg/logo.svg';
+import discordLogoWhite from '../../assets/svg/discordLogoWhite.svg';
 
 export interface ServerButtonProps {
 	selected?: boolean;
@@ -24,7 +24,7 @@ const ServerButton: React.FC<ServerButtonProps> = ({
 			mentions={mentions}
 			className={selected ? 'active' : ''}
 		>
-			{isHome && <img src={logoSvg} alt="Rocketseat" />}
+			{isHome && <img src={discordLogoWhite} alt="Discord" />}
 		</Button>
 	);
 };

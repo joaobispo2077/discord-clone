@@ -13,8 +13,7 @@ export const Button = styled.button<ServerButtonProps>`
 	margin-bottom: 8px;
 	border-radius: 50%;
 
-	background-color: ${(props) =>
-		props.isHome ? 'var(--rocketpurple)' : 'var(--primary)'};
+	background-color: var(--primary);
 
 	position: relative;
 	cursor: pointer;
@@ -71,6 +70,8 @@ export const Button = styled.button<ServerButtonProps>`
 	&:hover {
 		border-radius: 16px;
 		background: ${(props) =>
-			props.isHome ? 'var(--rocketpurple)' : 'var(--discord)'};
+			props.isHome
+				? 'var(--discord)'
+				: 'hsl(139,calc(var(--saturation-factor, 1)*66.8%),58.6%)'};
 	}
 `;
