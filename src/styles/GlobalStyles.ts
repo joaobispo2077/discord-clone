@@ -32,6 +32,7 @@ export default createGlobalStyle`
 
     --notification: #f84a4b;
     --discord: #6e86d6;
+		--setting: hsl(139,calc(var(--saturation-factor, 1)*66.8%),58.6%);
     --mention-detail: #f9a839;
     --mention-message: #413f3f;
 

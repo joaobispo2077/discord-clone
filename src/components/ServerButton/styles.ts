@@ -69,9 +69,6 @@ export const Button = styled.button<ServerButtonProps>`
 	&.active,
 	&:hover {
 		border-radius: 16px;
-		background: ${(props) =>
-			props.isHome
-				? 'var(--discord)'
-				: 'hsl(139,calc(var(--saturation-factor, 1)*66.8%),58.6%)'};
+		background: var(--discord);
 	}
 `;
