@@ -1,46 +1,84 @@
-# Getting Started with Create React App
+<meta charset="utf-8">
+<h1 align="center">
+ Discord | UI Clone
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">
+  O poder do Grid Layout + Flexbox
+</h3>
 
-## Available Scripts
+<p align="center">
+ <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=6e86d6&labelColor=1C1C1C" alt="PRs welcome!" />
 
-In the project directory, you can run:
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=not specified&color=6e86d6&labelColor=1C1C1C">
+</p>
+<p align="center">
+<!-- <a href="https://github.com/joaobispo2077" target="_blank">
+    <img alt="Made by João Bispo" src="https://img.shields.io/static/v1?label=Made%20By&message=Joao%20Bispo&color=6e86d6&labelColor=1C1C1C">
+  </a> -->
+  <a href="https://github.com/joaobispo2077" target="_blank" >
+    <img alt="Github - João Bispo" src="https://img.shields.io/badge/Github--%4B0082?style=plastic&labelColor=1C1C1C&color=6e86d6&logo=github">
+  </a>
+  <a href="https://www.linkedin.com/in/joaobispo2077/" target="_blank" >
+    <img alt="Linkedin - João Bispo" src="https://img.shields.io/badge/Linkedin--%23F8952D?style=plastic&labelColor=1C1C1C&color=6e86d6&logo=linkedin">
+  </a>
+  <a href="mailto:joaobispo2077@gmail.com" target="_blank" >
+    <img alt="Email - João Bispo" src="https://img.shields.io/badge/Email--%23F8952D?style=plastic&labelColor=1C1C1C&color=6e86d6&logo=gmail">
+  </a>
+</p>
 
-### `yarn start`
+<p align="center">
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-desafios">Desafios</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#%EF%B8%8F-como-contribuir">Como contribuir</a>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<br>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 💻 Projeto
 
-### `yarn test`
+O Discord Clone é um projeto que visa demonstrar minhas habilidades de layout ao criar uma interface totalmente semelhante a página de servidor da aplicação Discord.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Tecnologias
 
-### `yarn build`
+Esse projeto é desenvolvido com as seguintes tecnologias:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [⚛ React](https://reactjs.org)  — Uma biblioteca para construção de interfaces.
+- [✨ TypeScript](https://www.typescriptlang.org)  — Tipagem  estática ao código.
+- [💖 Styled Components](https://styled-components.com)  — Um módulo de criação de estilização para componentes.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 📝 Lint — ESlint/Prettier/Editor Config
+  - [📦 ESLint](https://eslint.org)  — Um módulo de gerenciamento de erros.
+  - [📦 Prettier](https://prettier.io)  — Um módulo de formatação de código.
+  - [📦 Editor Config](https://editorconfig.org)  — Um módulo de configuração de editor.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- ⚡ Lint no commit — Huisky/Lint-staged
+  - [🐶 Husky](https://typicode.github.io/husky/#/) — Um módulo que permite definir hooks para o git.
+  - [📦 Lint staged](https://github.com/okonet/lint-staged)  — Um módulo que permite a execução de rotinas dos arquivos em staged.
 
-### `yarn eject`
+## 🔖 Layout
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Em breve...
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🎯 Desafios
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- [x] Entender a página, templates e componentes como linhas e colunas.
+- [x] Aplicar grid layout no macro do design da página.
+- [x] Aplicar flexbox no micro do design da página.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## ♻️ Como contribuir
 
-## Learn More
+- Faça um fork desse repositório;
+- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça push para a sua branch: `git push origin minha-feature`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Para fazer o setup da aplicação, leia o arquivo [setup.md](./setup.md)
+
+---
+
+<p align="center">Feito com 💙 e ☕  por <strong><a href="https://www.linkedin.com/in/joaobispo2077/">João Bispo</a>😎 </strong> </p>
